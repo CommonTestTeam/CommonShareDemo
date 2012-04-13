@@ -22,13 +22,13 @@
 		8488CB271537D513006F842E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8488CB291537D513006F842E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8488CB2B1537D513006F842E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8488CB2F1537D513006F842E /* CommonShareDemo-Info.plist */ = {isa = PBXFileReference; path = "CommonShareDemo-Info.plist"; sourceTree = "<group>"; };
+		8488CB2F1537D513006F842E /* CommonShareDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommonShareDemo-Info.plist"; sourceTree = "<group>"; };
 		8488CB311537D513006F842E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8488CB331537D513006F842E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8488CB351537D513006F842E /* CommonShareDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CommonShareDemo-Prefix.pch"; sourceTree = "<group>"; };
-		8488CB361537D513006F842E /* CommonShareDemoAppDelegate.h */ = {isa = PBXFileReference; path = CommonShareDemoAppDelegate.h; sourceTree = "<group>"; };
+		8488CB351537D513006F842E /* CommonShareDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonShareDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8488CB361537D513006F842E /* CommonShareDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonShareDemoAppDelegate.h; sourceTree = "<group>"; };
 		8488CB371537D513006F842E /* CommonShareDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonShareDemoAppDelegate.m; sourceTree = "<group>"; };
-		8488CB391537D513006F842E /* CommonShareDemoViewController.h */ = {isa = PBXFileReference; path = CommonShareDemoViewController.h; sourceTree = "<group>"; };
+		8488CB391537D513006F842E /* CommonShareDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonShareDemoViewController.h; sourceTree = "<group>"; };
 		8488CB3A1537D513006F842E /* CommonShareDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonShareDemoViewController.m; sourceTree = "<group>"; };
 		8488CB3D1537D513006F842E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CommonShareDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
