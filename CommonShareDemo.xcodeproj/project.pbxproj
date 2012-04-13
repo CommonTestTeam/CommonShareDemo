@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845DE8F015381F09000FAFD9 /* ren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845DE8EF15381F09000FAFD9 /* ren.jpg */; };
 		8488CB281537D513006F842E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488CB271537D513006F842E /* UIKit.framework */; };
 		8488CB2A1537D513006F842E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488CB291537D513006F842E /* Foundation.framework */; };
 		8488CB2C1537D513006F842E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488CB2B1537D513006F842E /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845DE8EF15381F09000FAFD9 /* ren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ren.jpg; sourceTree = "<group>"; };
 		8488CB231537D513006F842E /* CommonShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8488CB271537D513006F842E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8488CB291537D513006F842E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845DE8EE15381EC2000FAFD9 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				845DE8EF15381F09000FAFD9 /* ren.jpg */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		8488CB181537D513006F842E = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		8488CB2D1537D513006F842E /* CommonShareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				845DE8EE15381EC2000FAFD9 /* resource */,
 				8488CB361537D513006F842E /* CommonShareDemoAppDelegate.h */,
 				8488CB371537D513006F842E /* CommonShareDemoAppDelegate.m */,
 				8488CB391537D513006F842E /* CommonShareDemoViewController.h */,
@@ -150,6 +161,7 @@
 			files = (
 				8488CB321537D513006F842E /* InfoPlist.strings in Resources */,
 				8488CB3E1537D513006F842E /* CommonShareDemoViewController.xib in Resources */,
+				845DE8F015381F09000FAFD9 /* ren.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				8488CB431537D513006F842E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
